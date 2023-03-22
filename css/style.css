@@ -53,19 +53,6 @@ body {
   z-index: 2;
 }
 
-.heading_container h2::before {
-  content: "";
-  position: absolute;
-  width: 35px;
-  height: 26px;
-  top: 50%;
-  right: -40px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  z-index: 1;
-  background-image: url(../images/heading-img.png);
-  background-repeat: no-repeat;
-}
 
 /*header section*/
 .hero_area {
